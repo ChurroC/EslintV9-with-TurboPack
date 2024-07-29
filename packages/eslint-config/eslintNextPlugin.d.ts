@@ -3,7 +3,7 @@ declare module "@next/eslint-plugin-next" {
     // This aren't actual full types but I'm just using "core-web-vitals" so it works
     const config = {
         configs = {
-            "core-web-vitals": Linter.Config
+            "core-web-vitals": Linter
         }
     };
     export default config;
